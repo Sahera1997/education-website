@@ -8,6 +8,9 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 .header {
@@ -20,6 +23,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
+
 }
 
 .navbar {
@@ -29,12 +33,13 @@ body {
     z-index: 10;
     display: flex;
     align-content: center;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
 .navbar ul {
     display: flex;
     align-items: center;
-
     gap: 15px;
 }
 
@@ -74,7 +79,7 @@ body {
     color: white !important;
 }
 
-.signUpBtn a:hover {
+.signUpBtn:hover a {
     color: #e85a4f !important;
 }
 
@@ -93,6 +98,14 @@ body {
     border: none;
     outline: none;
     background: transparent;
+}
+
+.card:hover {
+    border: 2px solid #e85a4f;
+    box-shadow: 10px 5px 5px rgb(198, 187, 187);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+
 }
 
 .banner {
@@ -176,11 +189,11 @@ body {
     z-index: 30;
 }
 
-.banner .search .btn {
+.banner .search .myBtn {
     margin-left: auto;
 }
 
-.btn {
+.myBtn {
     width: 187px;
     height: 60px;
     background: #e85a4f;
@@ -191,10 +204,15 @@ body {
     font-size: 22px;
 }
 
-.btn:hover {
+.myBtn:hover {
     background: transparent;
     border: 1px solid #e85a4f;
     color: #e85a4f;
+}
+
+.goal {
+    color: #e85a4f;
+    font-weight: 400;
 }
 
 .banner .searchInput {
@@ -207,6 +225,10 @@ body {
 .banner .right {
     width: 50%;
     position: relative;
+}
+
+.banner .right .bannerImg {
+    margin-top: -58px;
 }
 
 /* .banner .right .backgroundImage {
@@ -246,6 +268,10 @@ body {
 .categoryFull,
 .processFull {
     background-color: #eae7dc;
+}
+
+.categoryFull {
+    margin-top: -59px;
 }
 
 .category {
@@ -309,6 +335,14 @@ body {
     height: 180px;
     gap: 40px;
     padding-top: 10px;
+}
+
+.categoryRight .categoryItems .item:hover {
+    border: 2px solid #e85a4f;
+    box-shadow: 10px 5px 5px rgb(198, 187, 187);
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+
 }
 
 /* popular section start */
@@ -428,7 +462,7 @@ body {
 /* process start */
 
 .process {
-    padding: 100px 0;
+    padding: 100px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -529,7 +563,7 @@ body {
 }
 
 .featured {
-    padding: 100px 20px;
+    padding: 100px 30px;
     display: flex;
 }
 
@@ -551,7 +585,7 @@ body {
 }
 
 .trending {
-    padding: 100px 20px;
+    padding: 100px 30px;
     background-color: #eae7dc;
 }
 
@@ -642,7 +676,7 @@ body {
 .faq,
 .companies,
 .footer {
-    padding: 100px 20px;
+    padding: 100px 30px;
 }
 
 .enrollment {
@@ -733,6 +767,8 @@ body {
         margin-top: 10px;
     }
 
+    .searchBox:hover {}
+
     .navbarTop {
         display: flex;
         justify-content: space-between;
@@ -763,7 +799,7 @@ body {
         height: 70px;
     }
 
-    .banner .search .btn {
+    .banner .search .myBtn {
         width: 100px;
         height: 50px;
         font-size: 14px;
@@ -835,7 +871,7 @@ body {
         padding-left: 10px;
     }
 
-    .processRight .btn {
+    .processRight .myBtn {
         font-size: 16px;
         width: 200px;
         height: 50px;
@@ -879,6 +915,19 @@ body {
 
     .enrollmentImg {
         display: none;
+    }
+
+    .studentFeedbackImg {
+        width: 100%;
+    }
+
+    .searchBox {
+        margin-left: 60px;
+    }
+
+    .banner .right .card {
+        right: 10px;
+        bottom: 0px;
     }
 
     .faq {
