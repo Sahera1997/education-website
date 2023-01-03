@@ -83,6 +83,12 @@ body {
     width: 100%;
 }
 
+.img-container {
+    margin-top: 25px;
+}
+
+
+
 .overlay {
     position: absolute;
     top: 0;
@@ -141,14 +147,6 @@ p {
     gap: 11.8rem;
 
 }
-
-/* .grid-two-col {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-three-col {
-    grid-template-columns: repeat(3, 1fr);
-} */
 
 .grid-four-col {
     grid-template-columns: repeat(4, 1fr);
