@@ -88,6 +88,7 @@
      transition: all 0.5s ease-in-out;
      -webkit-text-fill-color: #fff;
      transform: translateX(450%);
+     margin-bottom: 40px;
  }
 
  .btn:hover {
