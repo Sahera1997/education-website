@@ -99,6 +99,7 @@ body {
   border: none;
   outline: none;
   background: transparent;
+  font-size: 16px;
 }
 
 .card:hover {
@@ -530,6 +531,10 @@ body {
   }
 }
 
+.enrollment h1:hover {
+  color: #e85a4f;
+}
+
 .processTitle {
   font-size: 40px;
   color: #e85a4f;
@@ -725,9 +730,17 @@ body {
 
 .footerLinks>li a {
   text-decoration: none;
-  color: black;
+  color: rgb(52, 52, 52);
   font-size: 22px;
   font-weight: 700;
+}
+
+.footerLinks>li a:hover {
+  color: #e85a4f;
+}
+
+.footer-no:hover {
+  color: #e85a4f;
 }
 
 .emailBox {
@@ -744,7 +757,7 @@ body {
   background: transparent;
 }
 
-.footer {}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
@@ -772,7 +785,7 @@ body {
     margin-top: 10px;
   }
 
-  .searchBox:hover {}
+
 
   .navbarTop {
     display: flex;
@@ -946,6 +959,26 @@ body {
   .footerLinks>li a {
     font-size: 14px;
   }
+
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 40px;
+  height: 25px;
+  color: #ffffff;
+  background-color: #4f4d4d;
+  justify-content: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  padding-top: 3px;
+  text-align: center;
+  color: #ffffff;
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -1,83 +1,105 @@
-html {
-    font-size: 62.5%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
 
-    /* background-color: #222;  */
-    /* overflow-x: hidden; */
-    color: #e85a4f;
-}
 
-/* body {
-    height: 100vh;
-    width: 100%;
-} */
-
-.heading {
-    text-align: center;
-    font-size: 15px;
-
-}
-
-.title {
-    text-align: center;
-    font-size: 25px;
-}
-
-.container-contact {
-    background: #fff;
-    width: auto;
-    margin-left: 10px;
-
-}
-
-.paragraph {
-    font-size: 14px;
-    text-align: center;
-    color: #000;
-}
-
-.btn {
-    width: 20%;
-    letter-spacing: 2px;
-    background: #e85a4f;
-    transition: all 0.5s ease-in-out;
-    -webkit-text-fill-color: #fff;
-    transform: translateX(180%);
-}
-
-.btn:hover {
-    transform: scale(0.8s);
+.container-1 {
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border: 1px solid #e85a4f;
 }
 
-.icon {
-    font-family: sans-serif, monospace;
-    font-size: 17px;
+.container-1 form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px #fcb7b2;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    border: 0.5px dashed #d69893;
+}
+
+.container-1 form h1 {
     color: #e85a4f;
-
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
 }
 
-hr {
-    width: 80%;
+.container-1 form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
 }
 
-ul li a {
+.container-1 form input::placeholder {
+    color: rgb(91, 91, 91);
+}
+
+.container-1 form #lastName,
+.container-1 form #mobile {
+    margin-left: 20px;
+}
+
+.container-1 form h4 {
+    color: rgb(91, 91, 91);
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+    s
+}
+
+.container-1 form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
+    color: rgb(91, 91, 91);
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container-1 form #button {
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    background-color: #e85a4f;
+    color: white;
+}
+
+.container-1 form #button:hover {
+    background-color: rgba(247, 237, 236, 0.959);
     color: #e85a4f;
-    float: left;
-    font-family: monospace;
-    font-size: 25px;
-    margin-left: 23px;
-    margin-right: 30px;
-    transition: 0.5s ease-in-out;
-
-}
-
-ul li a:hover {
-    color: rgb(245, 178, 133);
-    transform: scale(1.02s);
-
-
+    font-weight: 700;
 }

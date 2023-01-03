@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,200&family=Nunito:wght@500&family=Slabo+27px&display=swap');
+
 .carousel-inner {
     padding: 1em;
 }
@@ -7,6 +9,8 @@
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
 }
+
+
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -28,6 +32,10 @@
     .carousel-inner {
         display: flex;
     }
+}
+
+h2 {
+    color: #e85a4f;
 }
 
 .card .img-wrapper {
