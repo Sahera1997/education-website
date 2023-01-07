@@ -140,6 +140,10 @@ body {
   font-weight: bold;
 }
 
+.subtitle {
+  color: #4f4d4d;
+}
+
 .banner .left .description {
   font-size: 18px;
   font-family: "Rubik", sans-serif;
@@ -235,6 +239,7 @@ body {
 
 .banner .right .bannerImg {
   margin-top: -58px;
+  padding-right: 0px;
 }
 
 /* .banner .right .backgroundImage {
