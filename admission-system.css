@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,200&family=Nunito:wght@500&family=Slabo+27px&display=swap');
+
+/* html {
+    font-size: 62.5%;
+}
+*/
+
+/* .header {
+   width: 100%;
+   background-color: #e85a4f;
+} */
+
+
+.heading {
+
+    text-align: center;
+    font-size: 25px;
+    color: #e85a4f;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: #e85a4f;
+}
+
+.paragraph {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.member {
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgb(158, 158, 158);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.member .teampic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+/* .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+} */
+
+
+.member .member-info {
+    padding-left: 30px;
+}
+
+.member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: tomato;
+}
+
+.member h4:hover {
+    color: rgb(50, 49, 49);
+}
+
+.member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.member .social {
+    margin-top: 12px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.member .social a {
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+    font-size: 18px;
+    color: #e85a4f;
+
+}
+
+.member .social a:hover {
+    background: tomato;
+}
+
+.member .social a i {
+    color: #e85a4f;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.member .social a i:hover {
+    color: white;
+}
+
+.row {
+    margin: 0 5%;
+    transition: all 1.3s ease;
+}
+
+/* .row :hover .row {
+    transform: scale(1.02);
+} */
+
+
+
+.img-fluid rounded-start {
+    display: inline-block;
+}
+
+.container-1 {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 16px;
+    margin-bottom: 5%;
+
+}
+
+.text-admission {
+    margin: 5% 20%;
+    font-size: 25px;
+    color: #e85a4f;
+}
+
+th {
+    color: #e85a4f;
+}

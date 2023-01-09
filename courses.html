@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/courses.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <!-- Header section start -->
+    <div class="header">
+        <div class="navContainer">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="w-100 navbarTop">
+                        <a class="navbar-brand" href="#">
+                            <img src="/images/logo.png" alt="" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/courses.html">Courses</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="/about-us.html">About</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+
+                            <li><a href="/admission-system.html"></a></li>
+                            <li onclick="toggleDropdown()" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs- toggle="dropdown"
+                                    aria-expanded="false">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu" id="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="/our-process.html">Our process</a></li>
+                                    <li><a class="dropdown-item" href="/faculty.html">Faculty</a></li>
+                                    <li><a class="dropdown-item" href="/admission-system.html">Admission</a></li>
+                                    <li><a class="dropdown-item" href="/privacy-policy.html">Privacy & Policy</a></li>
+                                </ul>
+                            </li>
+                            <li class="loginBtn ms-lg-1"><a href="/login-page.html">Login</a></li>
+                            <li class="signUpBtn"><a href="/signup.html">Signup</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="searchBox">
+                        <div class="searchIcon">
+                            <svg fill="#e85a4f" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" />
+                            </svg>
+                        </div>
+                        <input placeholder="Search course here" type="text" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="border" style="height: 70px; box-shadow: -4px -3px 20px 15px rgba(162, 154, 154, 0.35);"></div>
+    <!-- Header section End -->
+
+
+    <div class="container pt-5 pb-5">
+        <div class="admission-container container">
+            <h2 class="title fw-bold ">Our Courses</h2>
+            <div class="row">
+                <!-- course 1 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Architectur and Construction</h4>
+                            <p>Use your imagination for the design of buildings and spaces in people’s everyday life. It
+                                involves the study of sciences, humanities, fine and applied arts.</p>
+                            <div class="social ">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 2 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Business & management</h4>
+
+                            <p>Covering finance, accounting, marketing, HR management and administrative studies, you'll
+                                gain skills that can open doors for your own initiatives as well as global companies
+                                projects.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 3 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Creative arts & design</h4>
+
+                            <p>Develop your talent in a creative and practical way! You’ll study the creation of visual
+                                work, from painting to computer graphics and video games, including fine art and product
+                                design.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 4 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Computer Science & IT</h4>
+
+                            <p>Want to be at the edge of technological innovation? Learn about the design, production
+                                and use of computing, information systems and software engineering.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Social studies</h4>
+
+                            <p>You will study how we as human beings interact as part of society. The subject includes
+                                practical expressions such as film and media, and theory from sociology and
+                                anthropology.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 5 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Networking</h4>
+
+                            <p>The course focuses on installing, operating, managing, configure, and verifying IPv4 and
+                                IPv6 networks. The course helps you learn about configuring network elements.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Education & training</h4>
+
+                            <p>You will study of how people develop and learn. You can enrol at undergrad or postgrad
+                                teacher training. You will have a hands-on experience at a school or university.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 6 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Electrical & Electronics</h4>
+
+                            <p>Electrical and Electronics Engineering (EEE) is a four-year undergraduate course that
+                                includes electrical engineering and research in electronics. Since this is a field.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Graphic Deign</h4>
+
+                            <p>Graphic design is a craft where professionals create visual content to communicate
+                                messages. By applying visual hierarchy and page layout techniques, designers.</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 7 -->
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+
+                        <div class="member-info">
+                            <h4 class="member-title">Law</h4>
+
+                            <p>You will learn how legal systems operate around the world. International law and related
+                                areas are popular among international students looking for opportunities worldwide.</p>
+
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook-official"></i></a>
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section start -->
+    <div class="footerFull">
+        <div class="container footer">
+            <div class="d-lg-flex gap-5">
+                <img class="footerLogo" src="/images/logo2.png" alt="" />
+                <div class="d-flex align-items-center mt-3">
+                    <img src="/images/phone.png" alt="" />
+                    <h4 class="mt-2 ms-3 footer-phone">+825 6264 2686</h4>
+                </div>
+                <div class="d-flex align-items-center justify-content-lg-center mt-3">
+                    <img class="w-full" src="/images/message.png" alt="" />
+                    <h4 class="mt-2 ms-3 footer-email">info@course24.com</h4>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 d-flex gap-5">
+                    <ul class="footerLinks">
+                        <li class=""><a href="/">Home</a></li>
+                        <li class=""><a href="/about-us.html">About Us</a></li>
+                        <li class=""><a href="/contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="footerLinks">
+                        <li class=""><a href="">Courses</a></li>
+                        <li class=""><a href="/service.html">Service</a></li>
+                        <li class=""><a href="/gallery.html">Gallery</a></li>
+                    </ul>
+                    <ul class="footerLinks">
+                        <li class=""><a href="/our-process.html">Our process</a></li>
+                        <li class=""><a href="/faculty.html">Faculty</a></li>
+                        <li class=""><a href="/privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Subscribe Course Updates</h4>
+                    <div class="emailBox d-flex justify-content-between">
+                        <input class="w-100 emailInput" type="email" placeholder="Enter Email" id="" />
+                        <img src="/images/flyplane.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <br>
+
+        <p> Copywrite @2022-2023. All rights reserved.</p>
+        <p> Designed by Fatema Tul Zannat Nisha & Sahera Bibi Mitu.</p>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script>
+        let isopen = false;
+        let li = document.getElementById("dropdown-menu");
+        li.style.display = "none";
+
+        function toggleDropdown() {
+
+            if (isopen) {
+                li.style.display = "none";
+
+            }
+            else {
+                li.style.display = "block";
+
+            }
+            isopen = !isopen
+        }
+    </script>
+</body>
+
+</html>
+<!-- footer section end -->
